@@ -1,6 +1,6 @@
 # 📘 GeeksforGeeks Daily Practice
 
-This repository contains my **daily problem-solving practice from GeeksforGeeks**, focused on building strong **Data Structures & Algorithms (DSA)** fundamentals for **product-based company interviews**.
+This repository contains my **daily problem-solving practice from GeeksforGeeks in C++**, focused on building strong **Data Structures & Algorithms (DSA)** fundamentals for **product-based company interviews**.
 
 ---
 
