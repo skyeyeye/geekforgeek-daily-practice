@@ -6,6 +6,7 @@ class Solution {
         vector<int>ans(n,-1);
         stack<int>st;
         //Approach - 2
+      // // First pass (standard NGE) - Next Greater Element
         for(int i = 0; i < n; i++){
             // if(!st.empty()){
                 while(!st.empty() && arr[st.top()] < arr[i]){
@@ -15,6 +16,7 @@ class Solution {
             //}
             st.push(i);
         }
+      // 2nd Pass
           for(int i = 0; i < n; i++) {
             while(!st.empty() && arr[st.top()] < arr[i]) {
                 ans[st.top()] = arr[i];
